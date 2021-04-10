@@ -4,6 +4,7 @@
    xsi:schemaLocation = "http://www.springframework.org/schema/beans
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
+<!-- Using setter and getter -->
 	<bean id="personBean" class="SpringGroupId.Spring_Project.Person"></bean>   
 	<bean id="carBean" class="SpringGroupId.Spring_Project.Car"></bean> 	
 </beans>
