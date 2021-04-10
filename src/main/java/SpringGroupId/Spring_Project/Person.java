@@ -15,6 +15,4 @@ public class Person {
 	public void setCar(String car) {
 		this.car = car;
 	}
-	
-	
 }
