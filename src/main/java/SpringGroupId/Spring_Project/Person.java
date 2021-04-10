@@ -2,19 +2,17 @@ package SpringGroupId.Spring_Project;
 
 public class Person {
 	private String name;
-	private String car;
+	private Car car;
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getCar() {
+	public Car getCar() {
 		return car;
 	}
-	public void setCar(String car) {
+	public void setCar(Car car) {
 		this.car = car;
 	}
-	
-	
 }

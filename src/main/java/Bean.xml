@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="personBean" class="SpringGroupId.Spring_Project.Person">
+		<property name="name" value="Pallavi"/>
+		<property name="car" ref="carBean"></property>
+	</bean>   
+	<bean id="carBean" class="SpringGroupId.Spring_Project.Car">
+		<property name="carName" value="BMW"/>
+		<property name="model" value="2"></property>
+	</bean> 	
+</beans>
